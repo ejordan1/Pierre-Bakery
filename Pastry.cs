@@ -1,7 +1,11 @@
 namespace Models{
     public class Pastry{
-        public Pastry(){
-
+        public string _pastryType {get;}
+        
+        public Pastry(Date madeDate, Date expDate, string pastryType){
+            this._madeDate = date;
+            this._expDate = expDate;
+            this._pastryType = pastryType;
         }
 
         public static int PastriesTotalPrice(int numberOfPastries){
