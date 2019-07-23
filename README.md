@@ -15,7 +15,7 @@ _This is a program connected to aws to handle inventory for a bakery _
 
 ## Known Bugs
 
-_There are no known bugs and no unknown bugs._
+_The AWS service is not implemented in this version although it is set up in AWS. Currently there is just the client bakery purchasing functionality.
 
 ## Support and contact details
 
