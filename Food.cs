@@ -3,8 +3,8 @@ namespace Models
     //current not in use
     public class Food
     {
-        private Date _madeDate { get; }
-        private Date _expDate { get; }
+        public Date _madeDate { get; }
+        public Date _expDate { get; }
 
         public Food(Date madeDate, Date expDate)
         {
